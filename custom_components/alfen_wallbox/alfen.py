@@ -130,38 +130,39 @@ class AlfenDevice:
 class AlfenStatus:
 
     def __init__(self,response, prev_status):
-        for prop in response['properties']:
-            _LOGGER.debug('Prop')
-            _LOGGER.debug(prop)
+        if response is not None:
+            for prop in response['properties']:
+                _LOGGER.debug('Prop')
+                _LOGGER.debug(prop)
 
-            if prop['id'] == '2060_0':
-                self.uptime = max(0, prop['value'] / 1000 * 60)
-            elif prop['id'] == '2056_0':
-                self.bootups = prop['value']
-            elif prop['id'] == '2221_3':
-                self.voltage_l1 = round(prop['value'], 2)
-            elif prop['id'] == '2221_4':
-                self.voltage_l2 = round(prop['value'], 2)
-            elif prop['id'] == '2221_5':
-                self.voltage_l3 = round(prop['value'], 2)
-            elif prop['id'] == '2221_A':
-                self.current_l1 = round(prop['value'], 2)
-            elif prop['id'] == '2221_B':
-                self.current_l2 = round(prop['value'], 2)
-            elif prop['id'] == '2221_C':
-                self.current_l3 = round(prop['value'], 2)          
-            elif prop['id'] == '2221_16':
-                self.active_power_total = round(prop['value'], 2)
-            elif prop['id'] == '2201_0':
-                self.temperature = round(prop['value'], 2)    
-            elif prop['id'] == '2501_2':
-                self.status = prop['value'] 
-            elif prop['id'] == '2221_22':
-                self.meter_reading = round((prop['value'] / 1000), 2)
-            elif prop['id'] == '2129_0':
-                self.current_limit = prop['value'] 
-            elif prop['id'] == '2126_0':
-                self.auth_mode = self.auth_mode_as_str(prop['value']) 
+                if prop['id'] == '2060_0':
+                    self.uptime = max(0, prop['value'] / 1000 * 60)
+                elif prop['id'] == '2056_0':
+                    self.bootups = prop['value']
+                elif prop['id'] == '2221_3':
+                    self.voltage_l1 = round(prop['value'], 2)
+                elif prop['id'] == '2221_4':
+                    self.voltage_l2 = round(prop['value'], 2)
+                elif prop['id'] == '2221_5':
+                    self.voltage_l3 = round(prop['value'], 2)
+                elif prop['id'] == '2221_A':
+                    self.current_l1 = round(prop['value'], 2)
+                elif prop['id'] == '2221_B':
+                    self.current_l2 = round(prop['value'], 2)
+                elif prop['id'] == '2221_C':
+                    self.current_l3 = round(prop['value'], 2)          
+                elif prop['id'] == '2221_16':
+                    self.active_power_total = round(prop['value'], 2)
+                elif prop['id'] == '2201_0':
+                    self.temperature = round(prop['value'], 2)    
+                elif prop['id'] == '2501_2':
+                    self.status = prop['value'] 
+                elif prop['id'] == '2221_22':
+                    self.meter_reading = round((prop['value'] / 1000), 2)
+                elif prop['id'] == '2129_0':
+                    self.current_limit = prop['value'] 
+                elif prop['id'] == '2126_0':
+                    self.auth_mode = self.auth_mode_as_str(prop['value']) 
 
     def auth_mode_as_str(self, code):
         switcher = {

@@ -24,6 +24,8 @@ ALFEN_PRODUCT_MAP = {
     'NG910-60023': 'Eve Single Pro-line, 3 phase, display, type 2 socket',
     'NG910-60025': 'Eve Single Pro-line, 3 phase, display, type 2 shutter',
     'NG910-60027': 'Eve Single Pro-line, 3 phase, display, charging cable',
+    'NG910-60587': 'Eve Single S-line, 3 phase, LED, charging cable',
+
 
     'NG920-61031': 'Eve Double Pro-line, 2 x type 2 socket, 1 phase, max. 1x32A input current',
     'NG920-61032': 'Eve Double Pro-line, 2 x type 2 socket, 2 phase, max. 1x32A input current',

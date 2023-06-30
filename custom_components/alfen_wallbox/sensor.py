@@ -135,6 +135,7 @@ class AlfenMainSensor(Entity):
             17: "Session end", #(Unit with socket only?) Cable still connected to EVSE after charging, but car disconnected. Screen shows charging stats until cable disconnected from EVSE.
             34: "Blocked", #EVSE is blocked through management interface of CPO.
             36: "Paused",
+            41: "Solar charging",
         }
         return switcher.get(self._device.status.status, "Unknown")
 

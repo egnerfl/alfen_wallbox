@@ -26,7 +26,7 @@ class FlowHandler(config_entries.ConfigFlow):
         """Register new entry."""
         # Check if ip already is registered
         for entry in self._async_current_entries():
-            if entry.data[KEY_IP] == host:
+            if entry.data[CONF_HOST] == host:
                 return self.async_abort(reason="already_configured")
 
         return self.async_create_entry(title=host, data={CONF_HOST: host, CONF_NAME: name, CONF_USERNAME: username, CONF_PASSWORD: password})

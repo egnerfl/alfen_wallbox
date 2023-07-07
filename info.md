@@ -4,7 +4,7 @@ This is a custom component to allow control of Alfen Wallboxes in [HomeAssistant
 The component is a fork of the [Garo Wallbox custom integration](https://github.com/sockless-coding/garo_wallbox).
 ## Installation
 
-### Install using HACS (recomended)
+### Install using HACS (recommended)
 If you do not have HACS installed yet visit https://hacs.xyz for installation instructions.
 In HACS go to the Integrations section hit the big + at the bottom right and search for **Alfen Wallbox**.
 

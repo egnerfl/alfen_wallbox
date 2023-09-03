@@ -19,6 +19,7 @@ ALFEN_PRODUCT_MAP = {
     'NG900-60505': 'Eve Single S-line, 1 phase, LED, type 2 shutter',
     'NG900-60507': 'Eve Single S-line, 1 phase, LED, charging cable',
     'NG910-60587': 'Eve Single S-line, 3 phase, LED, charging cable',
+    'Generic Alfen Wallbox': 'Eve Single S-line, 3 phase, LED, charging cable',
     'NG910-60583': 'Eve Single Pro-line, 3 phase, LED, type 2 socket',
     'NG910-60003': 'Eve Single Pro-line, 1 phase, display, type 2 socket',
     'NG910-60005': 'Eve Single Pro-line, 1 phase, display, type 2 shutter',

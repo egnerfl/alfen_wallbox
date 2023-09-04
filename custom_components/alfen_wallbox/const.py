@@ -31,4 +31,6 @@ ALFEN_PRODUCT_MAP = {
     'NG920-61032': 'Eve Double Pro-line, 2 x type 2 socket, 2 phase, max. 1x32A input current',
     'NG920-61021': 'Eve Double Pro-line, 2 x type 2 socket, 3 phase, max. 1x32A input current',
     'NG920-61022': 'Eve Double Pro-line, 2 x type 2 socket, 3 phase, max. 2x32A input current',
+
+    'Generic Alfen Wallbox': 'Generic Alfen Wallbox',
 }

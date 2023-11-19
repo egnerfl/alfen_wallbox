@@ -133,6 +133,7 @@ class AlfenMainSensor(Entity):
             10: "Vehicle connected",
             11: "Charging",
             17: "Session end", #(Unit with socket only?) Cable still connected to EVSE after charging, but car disconnected. Screen shows charging stats until cable disconnected from EVSE.
+            26: "ConnectorLock Failure", #Not able to lock cable.Please reconnect cable
             34: "Blocked", #EVSE is blocked through management interface of CPO.
             36: "Paused",
             41: "Solar charging",

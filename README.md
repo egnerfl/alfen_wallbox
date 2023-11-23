@@ -13,7 +13,9 @@ The component is a fork of the [Garo Wallbox custom integration](https://github.
 
 ### Install using HACS (recomended)
 If you do not have HACS installed yet visit https://hacs.xyz for installation instructions.
-In HACS go to the Integrations section hit the big + at the bottom right and search for **Alfen Wallbox**.
+In HACS fist go to the Integrations section and click on the dots in the top right corner and select custom repositories. 
+Enter `https://github.com/egnerfl/alfen_wallbox.git`, select "Integration" as category and click "ADD". 
+Now you can hit the big + at the bottom right and search for **Alfen Wallbox**.
 
 ### Install manually
 Clone or copy this repository and copy the folder 'custom_components/alfen_wallbox' into '<homeassistant config>/custom_components/alfen_wallbox'

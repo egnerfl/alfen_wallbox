@@ -27,10 +27,10 @@ ALFEN_PRODUCT_MAP = {
     'NG910-60025': 'Eve Single Pro-line, 3 phase, display, type 2 shutter',
     'NG910-60027': 'Eve Single Pro-line, 3 phase, display, charging cable',
 
-    'NG920-61031': 'Eve Double Pro-line, 2 x type 2 socket, 1 phase, max. 1x32A input current',
-    'NG920-61032': 'Eve Double Pro-line, 2 x type 2 socket, 2 phase, max. 1x32A input current',
-    'NG920-61021': 'Eve Double Pro-line, 2 x type 2 socket, 3 phase, max. 1x32A input current',
-    'NG920-61022': 'Eve Double Pro-line, 2 x type 2 socket, 3 phase, max. 2x32A input current',
-
+    'NG920-61011': 'Eve Double Pro-line, 2 x type 2 socket, 1 phase, max. 1x32A input current',
+    'NG920-61012': 'Eve Double Pro-line, 2 x type 2 socket, 2 phase, max. 1x32A input current',
+    'NG920-61001': 'Eve Double Pro-line, 2 x type 2 socket, 3 phase, max. 1x32A input current',
+    'NG920-61002': 'Eve Double Pro-line, 2 x type 2 socket, 3 phase, max. 2x32A input current',
+    
     'Generic Alfen Wallbox': 'Generic Alfen Wallbox',
 }

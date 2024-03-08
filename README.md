@@ -1,3 +1,26 @@
+> :warning: **Important Update Regarding Project Maintenance**
+>
+> Unfortunately, due to current constraints on my time, I am unable to actively maintain this project.
+>
+> **Current Version:**
+> - If the current version meets your needs, you are encouraged to continue using it.
+>
+> **Security Issues:**
+> - Should there be any security-related concerns, rest assured, they will be addressed.
+>   However, I am currently unable to implement new features, such as dual socket support.
+>
+> **Contributions:**
+> - Contributions are highly welcomed. Pull requests for new features and bug fixes will be reviewed and merged accordingly.
+>
+> **Alternative Resources:**
+> - For those seeking additional functionalities not available in this repository, I recommend exploring a notable fork of this project by [@leeyuentuen](https://github.com/leeyuentuen), available at: [leeyuentuen/alfen_wallbox](https://github.com/leeyuentuen/alfen_wallbox).
+>
+> I encourage everyone to check out this fork for any features that may be missing from the main repository. 
+
+
+
+
+
 # Alfen Wallbox - HomeAssistant Integration
 
 This is a custom component to allow control of Alfen Wallboxes in [HomeAssistant](https://home-assistant.io).

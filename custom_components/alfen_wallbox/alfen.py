@@ -81,7 +81,7 @@ class AlfenDevice:
         )
 
         _LOGGER.debug(f"Status Response {response}")
-        self._session.request(
+        await self._session.request(
             ssl=self.ssl,
             method="POST",
             headers=HEADER_JSON,
